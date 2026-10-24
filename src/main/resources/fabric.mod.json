@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "universalenchant",
+  "version": "${version}",
+  "name": "Universal Enchantments",
+  "description": "Prototype: allows incompatible enchantments and periodically adds a random enchantment to the main-hand item.",
+  "authors": ["ChatGPT"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.universalenchant.UniversalEnchantMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
